@@ -2,7 +2,7 @@
 
 import { Link, usePathname, useRouter } from '@/i18n/routing'
 import { useLocale, useTranslations } from 'next-intl'
-import { useEffect, useLayoutEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { BurgerIcon, CloseIcon, MoonIcon, SunIcon } from '../../utils/icons'
 import Logo from './Logo'
 
@@ -33,11 +33,14 @@ const Navbar = () => {
   }, [theme])
 
   // Restore scroll position after locale change
-  useLayoutEffect(() => {
+  useEffect(() => {
     const saved = sessionStorage.getItem(SCROLL_RESTORE_KEY)
     if (saved !== null) {
+      const scrollY = parseInt(saved, 10)
       sessionStorage.removeItem(SCROLL_RESTORE_KEY)
-      document.documentElement.scrollTop = parseInt(saved, 10)
+      requestAnimationFrame(() => {
+        window.scrollTo(0, scrollY)
+      })
     }
   }, [locale])
 
