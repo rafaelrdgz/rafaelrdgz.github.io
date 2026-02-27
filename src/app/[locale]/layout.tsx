@@ -1,16 +1,13 @@
 import type { Metadata } from 'next'
-import './globals.css'
 
 import Footer from '@/components/Footer/Footer'
 import Navbar from '@/components/Navbar/Navbar'
 import { routing } from '@/i18n/routing'
 import { hasLocale } from 'next-intl'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
-import { Fira_Code } from 'next/font/google'
 import { notFound } from 'next/navigation'
 import { NextIntlClientProvider } from 'next-intl'
-
-const firaCode = Fira_Code({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700'] })
+import SetHtmlLang from './SetHtmlLang'
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -75,7 +72,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default async function RootLayout({
+export default async function LocaleLayout({
   children,
   params,
 }: Readonly<{
@@ -89,16 +86,13 @@ export default async function RootLayout({
   setRequestLocale(locale)
 
   return (
-    <html lang={locale} data-theme="dark">
-      <body className={`${firaCode.className}`}>
-        <NextIntlClientProvider>
-          <header className="sticky top-0 z-50">
-            <Navbar />
-          </header>
-          {children}
-          <Footer />
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider>
+      <SetHtmlLang locale={locale} />
+      <header className="sticky top-0 z-50">
+        <Navbar />
+      </header>
+      {children}
+      <Footer />
+    </NextIntlClientProvider>
   )
 }

@@ -52,8 +52,8 @@
   --animate-blink: blink 0.8s ease-in-out infinite;
   --animate-fade-up: fade-up 0.3s ease-out 1;
 
-  --background-image-large-glow: url('../../assets/images/bg-lg.svg');
-  --background-image-small-glow: url('../../assets/images/bg-sm.svg');
+  --background-image-large-glow: url('../assets/images/bg-lg.svg');
+  --background-image-small-glow: url('../assets/images/bg-sm.svg');
   --background-image-skill-gradient: linear-gradient(to right, var(--p), #062b48, var(--p));
 
   --background-position-large-glow-position: 110% 30%;
