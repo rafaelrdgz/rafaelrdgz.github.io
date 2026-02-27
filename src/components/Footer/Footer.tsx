@@ -13,6 +13,7 @@ const Footer = async () => {
       About: 'about',
       Projects: 'projects',
       Experience: 'experience',
+      Education: 'education',
       Contact: 'contact',
     }
     return {

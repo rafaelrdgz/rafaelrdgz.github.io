@@ -144,6 +144,7 @@ export const footerLinks = [
   { title: 'About', href: '#' },
   { title: 'Projects', href: '#projects' },
   { title: 'Experience', href: '#experience' },
+  { title: 'Education', href: '#education' },
   { title: 'Contact', href: '#contact' },
 ]
 
