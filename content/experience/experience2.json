@@ -1,0 +1,31 @@
+{
+  "order": 2,
+  "company": "TechStart Solutions",
+  "position": { "en": "Frontend Developer", "es": "Desarrollador Frontend" },
+  "startDate": "2022-06-01",
+  "endDate": "2024-02-01",
+  "location": "Barcelona, Spain",
+  "keywords": [
+    { "en": "Hybrid", "es": "Híbrido" },
+    { "en": "Full-time", "es": "Tiempo completo" }
+  ],
+  "activities": [
+    {
+      "en": "Built responsive web applications using Next.js and Tailwind CSS",
+      "es": "Construí aplicaciones web responsivas usando Next.js y Tailwind CSS"
+    },
+    {
+      "en": "Optimized Core Web Vitals achieving 95+ Lighthouse scores across all pages",
+      "es": "Optimicé los Core Web Vitals logrando puntuaciones de Lighthouse superiores a 95 en todas las páginas"
+    },
+    {
+      "en": "Designed and implemented a component library used across 4 internal products",
+      "es": "Diseñé e implementé una librería de componentes utilizada en 4 productos internos"
+    },
+    {
+      "en": "Mentored junior developers through code reviews and pair programming sessions",
+      "es": "Mentoricé a desarrolladores junior mediante revisiones de código y sesiones de pair programming"
+    }
+  ],
+  "technologies": ["Next.js", "Tailwind CSS", "Vue.js", "Figma", "Git"]
+}

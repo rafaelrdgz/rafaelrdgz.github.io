@@ -1,0 +1,31 @@
+{
+  "order": 3,
+  "company": "DevAgency",
+  "position": { "en": "Junior Software Developer", "es": "Desarrollador de Software Junior" },
+  "startDate": "2020-09-01",
+  "endDate": "2022-05-01",
+  "location": "Valencia, Spain",
+  "keywords": [
+    { "en": "On-site", "es": "Presencial" },
+    { "en": "Full-time", "es": "Tiempo completo" }
+  ],
+  "activities": [
+    {
+      "en": "Developed client-facing web applications using React and .NET backend",
+      "es": "Desarrollé aplicaciones web orientadas al cliente usando React y backend .NET"
+    },
+    {
+      "en": "Integrated third-party APIs including payment gateways and mapping services",
+      "es": "Integré APIs de terceros incluyendo pasarelas de pago y servicios de mapas"
+    },
+    {
+      "en": "Participated in agile ceremonies and contributed to sprint planning",
+      "es": "Participé en ceremonias ágiles y contribuí a la planificación de sprints"
+    },
+    {
+      "en": "Wrote unit and integration tests improving code coverage from 40% to 78%",
+      "es": "Escribí pruebas unitarias y de integración mejorando la cobertura de código del 40% al 78%"
+    }
+  ],
+  "technologies": ["React", "JavaScript", ".NET", "SQL Server", "Azure"]
+}

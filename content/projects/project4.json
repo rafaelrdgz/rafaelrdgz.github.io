@@ -1,0 +1,15 @@
+{
+  "priority": 4,
+  "title": "Ejucationzz",
+  "shortDescription": {
+    "en": "Ejucationzz is a directory site I created for myself using Next.js. On Ejucationzz, you can find free and paid online and offline courses available in Pakistan. 14 academies and 12 main categories, each with subcategories, have been listed.",
+    "es": "Ejucationzz es un sitio de directorio que creé usando Next.js. En Ejucationzz puedes encontrar cursos gratuitos y de pago, en línea y presenciales, disponibles en Pakistán. Se han listado 14 academias y 12 categorías principales, cada una con subcategorías."
+  },
+  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1598035107/pomodoro-clock_ctp2af.png",
+  "type": { "en": "New 🔥", "es": "Nuevo 🔥" },
+  "livePreview": "https://example.com/Ejucationzz",
+  "siteAge": { "en": "4 months old", "es": "4 meses de antigüedad" },
+  "visitors": { "en": "100 Visitors", "es": "100 Visitantes" },
+  "githubLink": "",
+  "earned": ""
+}

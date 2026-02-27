@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "title": "Rafael Rodriguez - Desarrollador Fullstack",
+    "description": "Ingeniero en Ciencias de la Computacion y Desarrollador Fullstack especializado en construir aplicaciones web modernas y escalables. Experiencia en React, Next.js, Node.js y TypeScript — desde frontends limpios hasta APIs backend robustas.",
+    "siteName": "Portafolio de Rafael Rodriguez",
+    "ogAlt": "Rafael Rodriguez - Desarrollador Fullstack"
+  },
+  "nav": {
+    "about": "Sobre mi",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "contact": "Contacto",
+    "toggleTheme": "Cambiar tema",
+    "toggleMenu": "Abrir menu",
+    "switchLocale": "English"
+  },
+  "hero": {
+    "greeting": "Hola soy Rafael",
+    "roles": {
+      "fullstack": "DESARROLLADOR FULLSTACK",
+      "software": "DESARROLLADOR DE SOFTWARE",
+      "engineer": "INGENIERO DE SOFTWARE"
+    },
+    "tagline": "Ingeniero en Ciencias de la Computacion creando aplicaciones web escalables y modernas",
+    "resume": "Curriculum",
+    "resumeAriaLabel": "Descargar Curriculum",
+    "githubAriaLabel": "Ver perfil de GitHub",
+    "linkedinAriaLabel": "Ver perfil de LinkedIn",
+    "aboutTitle": "Sobre mi",
+    "aboutParagraph1": "Me especializo en convertir ideas en productos digitales que rinden y se pueden medir: interfaces claras, flujos de usuario optimizados y metricas que demuestran impacto real. Trabajo tanto en frontend como en backend para asegurar que la experiencia de usuario y los objetivos de negocio avancen en la misma direccion.",
+    "aboutParagraph2": "Cada entrega se enfoca en resultados tangibles — mayor conversion, menor friccion y menores costos de mantenimiento — respaldados por practicas modernas de desarrollo y observabilidad. Colaboro con equipos multidisciplinarios para priorizar lo que realmente agrega valor y entregar mejoras de forma iterativa."
+  },
+  "projects": {
+    "heading": "Proyectos Destacados",
+    "livePreview": "Vista previa",
+    "githubLink": "Enlace Github",
+    "coverAlt": "Portada del proyecto"
+  },
+  "experience": {
+    "heading": "Experiencia Profesional",
+    "present": "Presente"
+  },
+  "contact": {
+    "heading": "Hablemos",
+    "subheading": "Me encantaria ayudarte",
+    "description": "Creando soluciones innovadoras para resolver problemas del mundo real",
+    "nameLabel": "Nombre completo",
+    "namePlaceholder": "Tu nombre aqui",
+    "emailLabel": "Correo electronico",
+    "emailPlaceholder": "Tu correo electronico aqui",
+    "subjectLabel": "Asunto",
+    "subjectPlaceholder": "Tu asunto aqui",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Tu mensaje aqui",
+    "submit": "Enviar",
+    "submitting": "Enviando...",
+    "validationName": "Por favor ingresa tu nombre.",
+    "validationEmail": "Por favor ingresa tu correo electronico.",
+    "validationSubject": "Por favor ingresa un asunto.",
+    "validationMessage": "Por favor ingresa un mensaje.",
+    "success": "Gracias por tu mensaje!",
+    "error": "Ups! Hubo un problema al enviar tu formulario"
+  },
+  "footer": {
+    "bio": "Ingeniero en Ciencias de la Computacion y Desarrollador Fullstack apasionado por construir aplicaciones web limpias y escalables, convirtiendo ideas en productos reales.",
+    "location": "La Habana, Cuba",
+    "copyright": "© {year} Rafael Rodriguez. Todos los derechos reservados."
+  },
+  "about": {
+    "heading": "Sobre Mi",
+    "paragraph1": "Me especializo en dar vida a ideas a traves de aplicaciones de alto rendimiento que impulsan resultados reales de negocio. Con un enfoque principal en desarrollo frontend y amplia experiencia en backend, creo soluciones personalizadas disenadas para aumentar conversiones y cumplir con tus objetivos de negocio.",
+    "paragraph2": "Cada negocio es unico, y mis soluciones tambien. Ofrezco experiencias digitales personalizadas usando tecnologias modernas, con un fuerte enfasis en Core Web Vitals y metricas de negocio, traduciendo tus objetivos en resultados medibles."
+  },
+  "services": {
+    "heading": "Servicios",
+    "subtitle": "Ofrezco una amplia gama de servicios para garantizar que tengas el mejor codigo y te mantengas adelante en la competencia.",
+    "jsTitle": "Desarrollo JavaScript",
+    "jsDescription": "Creando aplicaciones web dinamicas e interactivas usando JavaScript.",
+    "reactTitle": "Desarrollo React.js",
+    "reactDescription": "Construyendo interfaces de usuario modernas y responsivas con React.js.",
+    "nodeTitle": "Backend Node.js",
+    "nodeDescription": "Desarrollando aplicaciones escalables del lado del servidor usando Node.js.",
+    "nextTitle": "Desarrollo Next.js",
+    "nextDescription": "Creando aplicaciones React renderizadas en servidor con Next.js.",
+    "tsTitle": "Desarrollo TypeScript",
+    "tsDescription": "Asegurando codigo robusto y mantenible con TypeScript.",
+    "tailwindTitle": "Estilos con Tailwind CSS",
+    "tailwindDescription": "Disenando interfaces hermosas y responsivas con Tailwind CSS."
+  },
+  "testimonials": {
+    "heading": "Testimonios",
+    "subtitle": "No te quedes solo con nuestra palabra - mira lo que los usuarios reales de nuestro servicio tienen que decir sobre su experiencia."
+  }
+}

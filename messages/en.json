@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "title": "Rafael Rodriguez - Fullstack Developer",
+    "description": "Computer Engineer and Fullstack Developer specializing in building modern, scalable web applications. Experienced in React, Next.js, Node.js, and TypeScript — from clean frontends to robust backend APIs.",
+    "siteName": "Rafael Rodriguez Portfolio",
+    "ogAlt": "Rafael Rodriguez - Fullstack Developer"
+  },
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "toggleTheme": "Toggle theme",
+    "toggleMenu": "Toggle menu",
+    "switchLocale": "Español"
+  },
+  "hero": {
+    "greeting": "Hi I'm Rafael",
+    "roles": {
+      "fullstack": "FULLSTACK DEVELOPER",
+      "software": "SOFTWARE DEVELOPER",
+      "engineer": "SOFTWARE ENGINEER"
+    },
+    "tagline": "Computer Sciences Engineer crafting scalable and modern web applications",
+    "resume": "Resume",
+    "resumeAriaLabel": "Download Resume",
+    "githubAriaLabel": "View GitHub Profile",
+    "linkedinAriaLabel": "View LinkedIn Profile",
+    "aboutTitle": "About me",
+    "aboutParagraph1": "I specialize in turning ideas into digital products that perform and can be measured: clear interfaces, optimized user flows, and metrics that demonstrate real impact. I work across both frontend and backend to ensure user experience and business objectives move in the same direction.",
+    "aboutParagraph2": "Every delivery is focused on tangible outcomes — higher conversions, reduced friction, and lower maintenance costs — supported by modern development practices and observability. I collaborate with cross-functional teams to prioritize what truly adds value and to ship improvements iteratively."
+  },
+  "projects": {
+    "heading": "Featured Projects",
+    "livePreview": "Live Preview",
+    "githubLink": "Github Link",
+    "coverAlt": "Project Cover"
+  },
+  "experience": {
+    "heading": "Professional Experience",
+    "present": "Present"
+  },
+  "contact": {
+    "heading": "Let's Talk",
+    "subheading": "I'd love to help",
+    "description": "Crafting innovative solutions to solve real-world problems",
+    "nameLabel": "Full name",
+    "namePlaceholder": "Your name here",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Your email address here",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Your subject here",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Your message here",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "validationName": "Please provide your name.",
+    "validationEmail": "Please provide your email address.",
+    "validationSubject": "Please provide a subject.",
+    "validationMessage": "Please provide a message.",
+    "success": "Thanks for your submission!",
+    "error": "Oops! There was a problem submitting your form"
+  },
+  "footer": {
+    "bio": "Computer Sciences Engineer and Fullstack Developer passionate about building clean, scalable web applications and turning ideas into real products.",
+    "location": "Havana, Cuba",
+    "copyright": "© {year} Rafael Rodriguez. All rights reserved."
+  },
+  "about": {
+    "heading": "About Me",
+    "paragraph1": "I specialize in bringing ideas to life through high-performance applications that drive real business results. With a primary focus on front end development and extensive backend experience, I create tailored solutions designed to boost conversions and meet your specific business objectives.",
+    "paragraph2": "Every business is unique, and so are my solutions. I deliver personalized digital experiences using modern technologies, with a strong emphasis on Core Web Vitals and business metrics, translating your goals into measurable outcomes."
+  },
+  "services": {
+    "heading": "Services",
+    "subtitle": "I offer a wide range of services to ensure you have the best written code and stay ahead in the competition.",
+    "jsTitle": "JavaScript Development",
+    "jsDescription": "Creating dynamic and interactive web applications using JavaScript.",
+    "reactTitle": "React.js Development",
+    "reactDescription": "Building modern and responsive user interfaces with React.js.",
+    "nodeTitle": "Node.js Backend",
+    "nodeDescription": "Developing scalable server-side applications using Node.js.",
+    "nextTitle": "Next.js Development",
+    "nextDescription": "Creating server-rendered React applications with Next.js.",
+    "tsTitle": "TypeScript Development",
+    "tsDescription": "Ensuring robust and maintainable code with TypeScript.",
+    "tailwindTitle": "Tailwind CSS Styling",
+    "tailwindDescription": "Designing beautiful and responsive interfaces with Tailwind CSS."
+  },
+  "testimonials": {
+    "heading": "Testimonials",
+    "subtitle": "Don't just take our word for it - see what actual users of our service have to say about their experience."
+  }
+}

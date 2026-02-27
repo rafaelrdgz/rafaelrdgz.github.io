@@ -1,0 +1,14 @@
+{
+  "priority": 3,
+  "title": "Project Epsilon",
+  "shortDescription": {
+    "en": "A collection of engaging coding challenges designed to help developers improve their ReactJS skills by writing functional business logic. Your task is to make it functional by writing business logic, to improve your frontend skills",
+    "es": "Una colección de desafíos de programación diseñados para ayudar a los desarrolladores a mejorar sus habilidades en ReactJS escribiendo lógica de negocio funcional. Tu tarea es hacerlo funcional escribiendo lógica de negocio para mejorar tus habilidades de frontend"
+  },
+  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656971294/waitlist-template_qr4l9k.png",
+  "type": { "en": "Free 🔥", "es": "Gratis 🔥" },
+  "livePreview": "https://example.com/epsilon",
+  "githubLink": "https://github.com/example/ReactJS-Coding-Challenges",
+  "githubStars": { "en": "40 Stars", "es": "40 Estrellas" },
+  "numberOfSales": { "en": "138 Sales", "es": "138 Ventas" }
+}

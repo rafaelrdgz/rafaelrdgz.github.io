@@ -1,0 +1,31 @@
+{
+  "order": 1,
+  "company": "Acme Corp",
+  "position": { "en": "Fullstack Developer", "es": "Desarrollador Fullstack" },
+  "startDate": "2024-03-01",
+  "endDate": null,
+  "location": "Madrid, Spain",
+  "keywords": [
+    { "en": "Remote", "es": "Remoto" },
+    { "en": "Full-time", "es": "Tiempo completo" }
+  ],
+  "activities": [
+    {
+      "en": "Developed and maintained scalable REST APIs serving 50K+ daily active users",
+      "es": "Desarrollé y mantuve APIs REST escalables con más de 50K usuarios activos diarios"
+    },
+    {
+      "en": "Led frontend migration from legacy jQuery codebase to React with TypeScript",
+      "es": "Lideré la migración del frontend de una base de código jQuery a React con TypeScript"
+    },
+    {
+      "en": "Implemented CI/CD pipelines reducing deployment time by 60%",
+      "es": "Implementé pipelines de CI/CD reduciendo el tiempo de despliegue en un 60%"
+    },
+    {
+      "en": "Collaborated with product and design teams to deliver features on tight deadlines",
+      "es": "Colaboré con los equipos de producto y diseño para entregar funcionalidades en plazos ajustados"
+    }
+  ],
+  "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL", "Docker", "AWS"]
+}

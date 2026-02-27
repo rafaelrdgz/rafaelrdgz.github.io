@@ -1,0 +1,12 @@
+{
+  "priority": 2,
+  "title": "Codevertiser",
+  "shortDescription": {
+    "en": "A programming related article site to share my learnings",
+    "es": "Un sitio de artículos sobre programación para compartir mis aprendizajes"
+  },
+  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656970810/Codevertiser_xlxdje.png",
+  "livePreview": "https://example.com/beta",
+  "visitors": { "en": "8K Visitors", "es": "8K Visitantes" },
+  "earned": { "en": "$400 Earned", "es": "$400 Ganados" }
+}
