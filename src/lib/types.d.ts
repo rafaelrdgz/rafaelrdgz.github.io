@@ -35,6 +35,15 @@ export interface RawExperience {
   technologies: string[]
 }
 
+export interface RawEducation {
+  order: number
+  entity: LocalizedString
+  title: LocalizedString
+  startDate: string
+  endDate: string | null
+  location: LocalizedString
+}
+
 // ---------------------------------------------------------------------------
 // Resolved shapes (what components consume — all strings, single locale)
 // ---------------------------------------------------------------------------
@@ -65,6 +74,15 @@ export interface Experience {
   keywords: string[]
   activities: string[]
   technologies: string[]
+}
+
+export interface Education {
+  order: number
+  entity: string
+  title: string
+  startDate: string
+  endDate: string
+  location: string
 }
 
 // ---------------------------------------------------------------------------

@@ -1,0 +1,17 @@
+{
+  "order": 1,
+  "entity": {
+    "en": "Technological University of Havana (CUJAE)",
+    "es": "Universidad Tecnológica de La Habana (CUJAE)"
+  },
+  "title": {
+    "en": "Computer Sciences Engineer",
+    "es": "Ingeniero en Ciencias Informáticas"
+  },
+  "startDate": "2023-02-01",
+  "endDate": "2026-07-01",
+  "location": {
+    "en": "Havana, Cuba",
+    "es": "Habana, Cuba"
+  }
+}

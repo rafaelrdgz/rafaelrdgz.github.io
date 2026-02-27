@@ -1,7 +1,9 @@
 import type {
+  Education,
   Experience,
   LocalizedString,
   Project,
+  RawEducation,
   RawExperience,
   RawProject,
   Testimonial,
@@ -30,10 +32,13 @@ const resolveOptional = (
   return resolved || undefined
 }
 
-/** Format an ISO 8601 date string (e.g. "2024-03-01") as "Mar 2024" / "mar 2024". */
+/** Format an ISO 8601 date string (e.g. "2024-03-01") as "Mar 2024" / "Mar 2024". */
 const formatDate = (isoDate: string, locale: string): string => {
   const date = new Date(isoDate + 'T00:00:00') // avoid timezone shift
-  return new Intl.DateTimeFormat(locale, { month: 'short', year: 'numeric' }).format(date)
+  const formatted = new Intl.DateTimeFormat(locale, { month: 'short', year: 'numeric' }).format(
+    date,
+  )
+  return formatted.charAt(0).toUpperCase() + formatted.slice(1)
 }
 
 /** Return the translated label for "Present" (current position). */
@@ -126,6 +131,37 @@ const getAllExperiences = async (locale: string): Promise<Experience[]> => {
 // Testimonials (unchanged — no bilingual fields yet)
 // ---------------------------------------------------------------------------
 
+const getAllEducations = async (locale: string): Promise<Education[]> => {
+  try {
+    const educationPath = path.join(process.cwd(), '/content/education')
+    const fileNames = await fs.readdir(educationPath)
+
+    const educations = await Promise.all(
+      fileNames.map(async (fileName) => {
+        const filePath = path.join(educationPath, fileName)
+        const raw: RawEducation = JSON.parse(await fs.readFile(filePath, 'utf8'))
+
+        const education: Education = {
+          order: raw.order,
+          entity: resolve(raw.entity, locale),
+          title: resolve(raw.title, locale),
+          startDate: formatDate(raw.startDate, locale),
+          endDate: raw.endDate ? formatDate(raw.endDate, locale) : presentLabel(locale),
+          location: resolve(raw.location, locale),
+        }
+
+        return education
+      }),
+    )
+
+    educations.sort((a, b) => a.order - b.order)
+    return educations
+  } catch (error) {
+    console.error('Error:', error)
+    return []
+  }
+}
+
 const getAllTestimonials = async (): Promise<Testimonial[]> => {
   try {
     const testimonialsPath = path.join(process.cwd(), '/content/testimonials')
@@ -147,4 +183,4 @@ const getAllTestimonials = async (): Promise<Testimonial[]> => {
   }
 }
 
-export { getAllExperiences, getAllProjects, getAllTestimonials }
+export { getAllEducations, getAllExperiences, getAllProjects, getAllTestimonials }

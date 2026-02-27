@@ -6,7 +6,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL!
 
   const locales = ['en', 'es']
-  const sections = ['', '/#projects', '/#experience', '/#contact']
+  const sections = ['', '/#projects', '/#experience', '/#education', '/#contact']
 
   return locales.flatMap((locale) =>
     sections.map((section, i) => ({

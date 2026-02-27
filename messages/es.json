@@ -6,12 +6,13 @@
     "ogAlt": "Rafael Rodriguez - Desarrollador Fullstack"
   },
   "nav": {
-    "about": "Sobre mi",
+    "about": "Sobre mí",
     "projects": "Proyectos",
     "experience": "Experiencia",
+    "education": "Educación",
     "contact": "Contacto",
     "toggleTheme": "Cambiar tema",
-    "toggleMenu": "Abrir menu",
+    "toggleMenu": "Abrir menú",
     "switchLocale": "English"
   },
   "hero": {
@@ -39,6 +40,9 @@
   "experience": {
     "heading": "Experiencia Profesional",
     "present": "Presente"
+  },
+  "education": {
+    "heading": "Educación"
   },
   "contact": {
     "heading": "Hablemos",

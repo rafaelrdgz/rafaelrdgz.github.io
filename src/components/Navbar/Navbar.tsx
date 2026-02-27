@@ -20,6 +20,7 @@ const Navbar = () => {
     { label: t('about'), href: '/' as const, scrollTop: true },
     { label: t('projects'), href: '/#projects' },
     { label: t('experience'), href: '/#experience' },
+    { label: t('education'), href: '/#education' },
     { label: t('contact'), href: '/#contact' },
   ]
 

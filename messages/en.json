@@ -9,6 +9,7 @@
     "about": "About",
     "projects": "Projects",
     "experience": "Experience",
+    "education": "Education",
     "contact": "Contact",
     "toggleTheme": "Toggle theme",
     "toggleMenu": "Toggle menu",
@@ -39,6 +40,9 @@
   "experience": {
     "heading": "Professional Experience",
     "present": "Present"
+  },
+  "education": {
+    "heading": "Education"
   },
   "contact": {
     "heading": "Let's Talk",
