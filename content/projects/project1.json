@@ -8,14 +8,14 @@
     "en": "A multi-tenant platform that centralizes catalogs, orders, deliveries and customers, with role-based access and reporting for multiple businesses",
     "es": "Plataforma multi-tenant que centraliza catálogo, pedidos, entregas y clientes, con control de roles e informes para la gestión de varios comercios"
   },
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1645090814/color-contrast_n598kw.png",
-  "desktopImage": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&h=800&fit=crop",
-  "mobileImage": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=800&fit=crop",
-  "livePreview": "https://example.com/alpha",
+  "cover": "/images/projects/project1-desktop.png",
+  "desktopImage": "/images/projects/project1-desktop.png",
+  "mobileImage": "/images/projects/project1-mobile.png",
+  "livePreview": "https://reymani-frontend.vercel.app/",
   "type": { "en": "Deployed", "es": "Desplegado" },
   "techStack": ["Next.js", ".NET"],
   "githubLinks": [
-    { "name": "Frontend", "url": "https://github.com/rafaelrdgz/reymani-web" },
-    { "name": "Backend", "url": "https://github.com/rafaelrdgz/reymani-api" }
+    { "name": "Frontend", "url": "https://github.com/rafaelrdgz/reymani-frontend" },
+    { "name": "Backend", "url": "https://github.com/rafaelrdgz/reymani-backend" }
   ]
 }

@@ -8,11 +8,17 @@
     "en": "System for the comprehensive management of a driving license issuance center, including applicant records, medical and driving school validations, infraction tracking, and full regulatory traceability",
     "es": "Sistema para la gestión integral de un centro de emisión de licencias de conducir: expedientes de solicitantes, validaciones médicas y de escuelas de conducción, registro de infracciones y trazabilidad para cumplimiento normativo"
   },
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656970810/Codevertiser_xlxdje.png",
-  "desktopImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop",
-  "mobileImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=800&fit=crop",
-  "livePreview": "https://example.com/beta",
+  "cover": "/images/projects/project2-desktop.png",
+  "desktopImage": "/images/projects/project2-desktop.png",
+  "mobileImage": "/images/projects/project2-mobile.png",
+  "livePreview": "https://licenses-management-system-frontend.vercel.app/",
   "type": { "en": "Deployed", "es": "Desplegado" },
   "techStack": ["React", "Express.js"],
-  "githubLink": "https://github.com/rafael/cms-centro-licencias"
+  "githubLinks": [
+    {
+      "name": "Frontend",
+      "url": "https://github.com/rafaelrdgz/licenses-management-system-frontend"
+    },
+    { "name": "Backend", "url": "https://github.com/rafaelrdgz/licenses-management-system-backend" }
+  ]
 }
