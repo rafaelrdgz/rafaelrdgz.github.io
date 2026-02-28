@@ -8,11 +8,20 @@
     "en": "Public site with a blog, interactive event calendar and sections for ministries and community engagement — easy content publishing and accessibility-focused",
     "es": "Web pública con blog, calendario de actividades y secciones para ministerios, contacto y participación comunitaria, optimizada para publicación sencilla y accesibilidad"
   },
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656971294/waitlist-template_qr4l9k.png",
-  "desktopImage": "https://images.unsplash.com/photo-1509233725247-49e657c54213?w=1200&h=800&fit=crop",
-  "mobileImage": "https://images.unsplash.com/photo-1509233725247-49e657c54213?w=400&h=800&fit=crop",
+  "cover": "",
+  "desktopImage": "",
+  "mobileImage": "",
   "livePreview": "",
   "type": { "en": "In Progress", "es": "En Progreso" },
   "techStack": ["Next.js", "NestJS"],
-  "githubLink": "https://github.com/rafael/jesus-es-la-respuesta"
+  "githubLinks": [
+    {
+      "name": "Frontend",
+      "url": "https://github.com/rafaelrdgz/jesus-is-the-answer-church-website-frontend"
+    },
+    {
+      "name": "Backend",
+      "url": "https://github.com/rafaelrdgz/jesus-is-the-answer-church-website-backend"
+    }
+]
 }
