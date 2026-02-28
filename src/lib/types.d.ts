@@ -14,6 +14,7 @@ export interface RawProject {
   mobileImage?: string
   livePreview?: string
   githubLink?: string
+  githubLinks?: { name: string; url: string }[]
   visitors?: LocalizedString
   earned?: LocalizedString
   githubStars?: LocalizedString
@@ -60,6 +61,7 @@ export interface Project {
   mobileImage?: string
   livePreview?: string
   githubLink?: string
+  githubLinks?: { name: string; url: string }[]
   visitors?: string
   earned?: string
   githubStars?: string

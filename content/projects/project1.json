@@ -14,5 +14,8 @@
   "livePreview": "https://example.com/alpha",
   "type": { "en": "Deployed", "es": "Desplegado" },
   "techStack": ["Next.js", ".NET"],
-  "githubLink": "https://github.com/rafaelrdgz/reymani"
+  "githubLinks": [
+    { "name": "Frontend", "url": "https://github.com/rafaelrdgz/reymani-web" },
+    { "name": "Backend", "url": "https://github.com/rafaelrdgz/reymani-api" }
+  ]
 }

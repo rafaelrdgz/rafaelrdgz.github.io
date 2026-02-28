@@ -70,6 +70,7 @@ const getAllProjects = async (locale: string): Promise<Project[]> => {
           mobileImage: raw.mobileImage || undefined,
           livePreview: raw.livePreview,
           githubLink: raw.githubLink || undefined,
+          githubLinks: raw.githubLinks || undefined,
           visitors: resolveOptional(raw.visitors, locale),
           earned: resolveOptional(raw.earned, locale),
           githubStars: resolveOptional(raw.githubStars, locale),
