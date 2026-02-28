@@ -2,6 +2,7 @@ import { Project } from '@/lib/types'
 import Image from 'next/image'
 import { getTranslations } from 'next-intl/server'
 import { Earning, GithubIcon, Likes, PreviewIcon, Star } from '../../utils/icons'
+import ProjectImageWrapper from './ProjectImageWrapper'
 
 const IconText: React.FC<{ icon: string; text: string }> = ({ icon, text }) => (
   <li className="flex gap-2">
@@ -29,6 +30,8 @@ const ProjectCard: React.FC<ProjectCardProps> = async ({ data }) => {
     githubLink,
     type,
     cover,
+    desktopImage,
+    mobileImage,
     techStack,
   } = data
 
@@ -67,15 +70,13 @@ const ProjectCard: React.FC<ProjectCardProps> = async ({ data }) => {
             )}
           </ul>
         </div>
-        <figure className="flex justify-end overflow-hidden">
-          <Image
-            src={cover}
-            width={150}
-            height={80}
-            alt={t('coverAlt')}
-            className="h-[80px] w-[150px] rounded-md object-cover shadow-[0px_1.66px_3.74px_-1.25px_#18274B1F]"
-          />
-        </figure>
+        <ProjectImageWrapper
+          cover={cover}
+          desktopImage={desktopImage}
+          mobileImage={mobileImage}
+          title={title}
+          alt={t('coverAlt')}
+        />
       </div>
 
       <div>

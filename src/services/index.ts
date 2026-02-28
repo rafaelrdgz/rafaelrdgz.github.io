@@ -66,6 +66,8 @@ const getAllProjects = async (locale: string): Promise<Project[]> => {
           shortDescription: resolve(raw.shortDescription, locale),
           priority: raw.priority,
           cover: raw.cover,
+          desktopImage: raw.desktopImage || undefined,
+          mobileImage: raw.mobileImage || undefined,
           livePreview: raw.livePreview,
           githubLink: raw.githubLink || undefined,
           visitors: resolveOptional(raw.visitors, locale),

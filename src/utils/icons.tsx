@@ -310,6 +310,57 @@ const CloseIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
   )
 }
 
+const DesktopIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <rect x="2" y="3" width="16" height="10" rx="1" stroke="currentColor" strokeWidth="1.5" />
+      <path d="M7 17H13" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      <path d="M10 17V14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+    </svg>
+  )
+}
+
+const EyeIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
+  return (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M8 4.5C4.5 4.5 1.5 8 1.5 8C1.5 8 4.5 11.5 8 11.5C11.5 11.5 14.5 8 14.5 8C14.5 8 11.5 4.5 8 4.5ZM8 10C6.343 10 5 8.657 5 7C5 5.343 6.343 4 8 4C9.657 4 11 5.343 11 7C11 8.657 9.657 10 8 10ZM8 9C8.552 9 9 8.552 9 8C9 7.448 8.552 7 8 7C7.448 7 7 7.448 7 8C7 8.552 7.448 9 8 9Z"
+        fill="currentColor"
+      />
+    </svg>
+  )
+}
+
+const MobileIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <rect x="5" y="2" width="10" height="16" rx="1.5" stroke="currentColor" strokeWidth="1.5" />
+      <path d="M8 17H12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+    </svg>
+  )
+}
+
 const StarIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
   return (
     <svg
@@ -380,15 +431,18 @@ export {
   ChevronRightIcon,
   CloseIcon,
   Codepen,
+  DesktopIcon,
   DotNetIcon,
   Earning,
   ExpressjsIcon,
+  EyeIcon,
   Facebook,
   GithubIcon,
   Instagram,
   JavaScriptIcon,
   Likes,
   LinkedIn,
+  MobileIcon,
   MoonIcon,
   MsgIcon,
   NestjsIcon,

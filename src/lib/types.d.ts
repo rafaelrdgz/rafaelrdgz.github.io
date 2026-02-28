@@ -10,6 +10,8 @@ export interface RawProject {
   shortDescription: LocalizedString
   priority: number
   cover: string
+  desktopImage?: string
+  mobileImage?: string
   livePreview?: string
   githubLink?: string
   visitors?: LocalizedString
@@ -54,6 +56,8 @@ export interface Project {
   shortDescription: string
   priority: number
   cover: string
+  desktopImage?: string
+  mobileImage?: string
   livePreview?: string
   githubLink?: string
   visitors?: string
