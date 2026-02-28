@@ -1,12 +1,16 @@
 {
   "priority": 1,
-  "title": "Color Contrast Collection",
+  "title": {
+    "en": "ReyMani Commerce",
+    "es": "ReyMani Comercio"
+  },
   "shortDescription": {
-    "en": "Curated Background with Text colors contrast, help you to pick best contrast for your websites",
-    "es": "Colección curada de contrastes de color de fondo y texto, te ayuda a elegir el mejor contraste para tus sitios web"
+    "en": "A multi-tenant platform that centralizes catalogs, orders, deliveries and customers, with role-based access and reporting for multiple businesses",
+    "es": "Plataforma multi-tenant que centraliza catálogo, pedidos, entregas y clientes, con control de roles e informes para la gestión de varios comercios"
   },
   "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1645090814/color-contrast_n598kw.png",
   "livePreview": "https://example.com/alpha",
-  "type": { "en": "Client Work 🙍‍♂️", "es": "Trabajo para cliente 🙍‍♂️" },
-  "siteAge": { "en": "1 month old", "es": "1 mes de antigüedad" }
+  "type": { "en": "Deployed", "es": "Desplegado" },
+  "techStack": ["Next.js", ".NET"],
+  "githubLink": "https://github.com/rafaelrdgz/reymani"
 }

@@ -6,7 +6,7 @@ export type LocalizedString = Record<string, string>
 // ---------------------------------------------------------------------------
 
 export interface RawProject {
-  title: string
+  title: string | LocalizedString
   shortDescription: LocalizedString
   priority: number
   cover: string
@@ -19,6 +19,7 @@ export interface RawProject {
   numberOfSales?: LocalizedString
   type?: LocalizedString
   siteAge?: LocalizedString
+  techStack?: string[]
 }
 
 export interface RawExperience {
@@ -62,6 +63,7 @@ export interface Project {
   numberOfSales?: string
   type?: string
   siteAge?: string
+  techStack?: string[]
 }
 
 export interface Experience {

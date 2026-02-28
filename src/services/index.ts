@@ -62,7 +62,7 @@ const getAllProjects = async (locale: string): Promise<Project[]> => {
         const raw: RawProject = JSON.parse(await fs.readFile(filePath, 'utf8'))
 
         const project: Project = {
-          title: raw.title,
+          title: typeof raw.title === 'string' ? raw.title : resolve(raw.title, locale),
           shortDescription: resolve(raw.shortDescription, locale),
           priority: raw.priority,
           cover: raw.cover,
@@ -75,6 +75,7 @@ const getAllProjects = async (locale: string): Promise<Project[]> => {
           numberOfSales: resolveOptional(raw.numberOfSales, locale),
           type: resolveOptional(raw.type, locale),
           siteAge: resolveOptional(raw.siteAge, locale),
+          techStack: raw.techStack,
         }
 
         return project

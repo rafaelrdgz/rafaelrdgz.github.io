@@ -1,12 +1,16 @@
 {
   "priority": 2,
-  "title": "Codevertiser",
+  "title": {
+    "en": "LicenseFlow CMS",
+    "es": "LicenseFlow CMS"
+  },
   "shortDescription": {
-    "en": "A programming related article site to share my learnings",
-    "es": "Un sitio de artículos sobre programación para compartir mis aprendizajes"
+    "en": "System for the comprehensive management of a driving license issuance center, including applicant records, medical and driving school validations, infraction tracking, and full regulatory traceability",
+    "es": "Sistema para la gestión integral de un centro de emisión de licencias de conducir: expedientes de solicitantes, validaciones médicas y de escuelas de conducción, registro de infracciones y trazabilidad para cumplimiento normativo"
   },
   "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656970810/Codevertiser_xlxdje.png",
   "livePreview": "https://example.com/beta",
-  "visitors": { "en": "8K Visitors", "es": "8K Visitantes" },
-  "earned": { "en": "$400 Earned", "es": "$400 Ganados" }
+  "type": { "en": "Deployed", "es": "Desplegado" },
+  "techStack": ["React", "Express.js"],
+  "githubLink": "https://github.com/rafael/cms-centro-licencias"
 }
