@@ -11,17 +11,13 @@
   "cover": "",
   "desktopImage": "",
   "mobileImage": "",
-  "livePreview": "",
+  "livePreview": "https://jesuseslarespuesta.vercel.app",
   "type": { "en": "In Progress", "es": "En Progreso" },
-  "techStack": ["Next.js", "NestJS"],
+  "techStack": ["Astro", "Decap CMS"],
   "githubLinks": [
     {
-      "name": "Frontend",
-      "url": "https://github.com/rafaelrdgz/jesus-is-the-answer-church-website-frontend"
-    },
-    {
-      "name": "Backend",
-      "url": "https://github.com/rafaelrdgz/jesus-is-the-answer-church-website-backend"
+      "name": "GitHub",
+      "url": "https://github.com/rafaelrdgz/jesus-is-the-answer-church-website"
     }
-]
+  ]
 }
