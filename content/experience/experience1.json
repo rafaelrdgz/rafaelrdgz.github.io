@@ -3,7 +3,7 @@
   "company": "Acme Corp",
   "position": { "en": "Fullstack Developer", "es": "Desarrollador Fullstack" },
   "startDate": "2024-03-01",
-  "endDate": null,
+  "endDate": "Present",
   "location": "Madrid, Spain",
   "keywords": [
     { "en": "Remote", "es": "Remoto" },

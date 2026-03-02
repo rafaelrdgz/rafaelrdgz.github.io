@@ -31,7 +31,7 @@ export interface RawExperience {
   position: LocalizedString
   /** ISO 8601 date, e.g. "2024-03-01" */
   startDate: string
-  /** ISO 8601 date or null for current position */
+  /** ISO 8601 date, "Present", "Presente", or null for current position */
   endDate: string | null
   location: string
   keywords: LocalizedString[]
@@ -44,6 +44,7 @@ export interface RawEducation {
   entity: LocalizedString
   title: LocalizedString
   startDate: string
+  /** ISO 8601 date, "Present", or null for current studies */
   endDate: string | null
   location: LocalizedString
 }
@@ -89,6 +90,7 @@ export interface Education {
   entity: string
   title: string
   startDate: string
+  /** Formatted date or "Present" */
   endDate: string
   location: string
 }
