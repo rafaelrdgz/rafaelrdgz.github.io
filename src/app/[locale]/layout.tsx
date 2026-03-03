@@ -1,13 +1,17 @@
+import '@/app/globals.css'
+
 import type { Metadata } from 'next'
 
 import Footer from '@/components/Footer/Footer'
 import Navbar from '@/components/Navbar/Navbar'
 import { routing } from '@/i18n/routing'
+import { Fira_Code } from 'next/font/google'
 import { hasLocale } from 'next-intl'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { NextIntlClientProvider } from 'next-intl'
-import SetHtmlLang from './SetHtmlLang'
+
+const firaCode = Fira_Code({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700'] })
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -20,13 +24,15 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'metadata' })
-  const url = process.env.NEXT_PUBLIC_SITE_URL
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL!.replace(/\/+$/, '')
+  const localeUrl = `${baseUrl}/${locale}`
 
   return {
     title: t('title'),
     description: t('description'),
     category: 'technology',
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL!),
+    metadataBase: new URL(baseUrl),
+    manifest: '/manifest.json',
     authors: [{ name: 'Rafael Rodriguez' }],
     keywords: [
       'Rafael Rodriguez',
@@ -51,23 +57,41 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       'Professional Experience',
     ],
     alternates: {
-      canonical: url,
+      canonical: localeUrl,
       languages: {
-        en: `${url}/en`,
-        es: `${url}/es`,
+        en: `${baseUrl}/en`,
+        es: `${baseUrl}/es`,
       },
     },
     openGraph: {
       title: t('title'),
       description: t('description'),
-      url,
+      url: localeUrl,
       siteName: t('siteName'),
       type: 'website',
+      locale: locale === 'es' ? 'es_ES' : 'en_US',
+      alternateLocale: locale === 'es' ? 'en_US' : 'es_ES',
+      images: [
+        {
+          url: `${baseUrl}/opengraph-image.png`,
+          width: 1817,
+          height: 825,
+          alt: t('ogAlt'),
+        },
+      ],
     },
     twitter: {
       title: t('title'),
       description: t('description'),
       card: 'summary_large_image',
+      images: [
+        {
+          url: `${baseUrl}/twitter-image.png`,
+          width: 1817,
+          height: 825,
+          alt: t('ogAlt'),
+        },
+      ],
     },
   }
 }
@@ -85,14 +109,43 @@ export default async function LocaleLayout({
   }
   setRequestLocale(locale)
 
+  const t = await getTranslations({ locale, namespace: 'metadata' })
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL!.replace(/\/+$/, '')
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        name: t('siteName'),
+        url: baseUrl,
+        inLanguage: [locale === 'es' ? 'es' : 'en'],
+      },
+      {
+        '@type': 'Person',
+        name: 'Rafael Rodriguez',
+        jobTitle: 'Fullstack Developer',
+        url: baseUrl,
+        sameAs: ['https://github.com/rafaelrdgz', 'https://www.linkedin.com/in/rafaelrdgz-dev/'],
+      },
+    ],
+  }
+
   return (
-    <NextIntlClientProvider>
-      <SetHtmlLang locale={locale} />
-      <header className="sticky top-0 z-50">
-        <Navbar />
-      </header>
-      {children}
-      <Footer />
-    </NextIntlClientProvider>
+    <html lang={locale} data-theme="dark" suppressHydrationWarning>
+      <body className={firaCode.className}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <NextIntlClientProvider>
+          <header className="sticky top-0 z-50">
+            <Navbar />
+          </header>
+          {children}
+          <Footer />
+        </NextIntlClientProvider>
+      </body>
+    </html>
   )
 }

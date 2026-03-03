@@ -62,6 +62,9 @@ const Footer = async () => {
             <li key={index}>
               <a
                 href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={item.label}
                 className="text-neutral hover:text-neutral/50 transition-colors duration-300"
               >
                 {item.icon}

@@ -1,0 +1,26 @@
+{
+  "name": "Rafael Rodriguez - Fullstack Developer",
+  "short_name": "Rafael Rodriguez",
+  "description": "Computer Sciences Engineer and Fullstack Developer specializing in building modern, scalable web applications.",
+  "start_url": "/en/",
+  "display": "standalone",
+  "background_color": "#011627",
+  "theme_color": "#011627",
+  "icons": [
+    {
+      "src": "/icon1.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon2.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

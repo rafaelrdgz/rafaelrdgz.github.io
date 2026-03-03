@@ -49,6 +49,7 @@ const GitHubLinks: React.FC<GitHubLinksProps> = ({ githubLink, githubLinks }) =>
                   key={link.url}
                   href={link.url}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-secondary-content hover:bg-accent/10 block rounded px-3 py-2 text-sm transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
@@ -70,6 +71,7 @@ const GitHubLinks: React.FC<GitHubLinksProps> = ({ githubLink, githubLinks }) =>
       href={singleLink}
       className="text-accent flex gap-2 text-sm underline underline-offset-[3px] transition-all duration-75 ease-linear hover:scale-105 md:text-base"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <GithubIcon className="w-[18px] md:w-5" />
       <span>{linkLabel}</span>
@@ -156,6 +158,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
               href={livePreview}
               className="text-accent flex gap-2 text-sm underline underline-offset-[3px] transition-all duration-75 ease-linear hover:scale-105 md:text-base"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <PreviewIcon className="h-auto w-[18px] md:w-5" />
               <span>{t('livePreview')}</span>
