@@ -33,6 +33,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     category: 'technology',
     metadataBase: new URL(baseUrl),
     manifest: '/manifest.json',
+    icons: {
+      icon: [
+        { url: '/favicon.ico', sizes: '16x16', type: 'image/x-icon' },
+        { url: '/icon1.png', sizes: '16x16', type: 'image/png' },
+        { url: '/icon2.png', sizes: '32x32', type: 'image/png' },
+      ],
+      apple: [{ url: '/apple-icon.png', sizes: '128x128', type: 'image/png' }],
+    },
     authors: [{ name: 'Rafael Rodriguez' }],
     keywords: [
       'Rafael Rodriguez',
