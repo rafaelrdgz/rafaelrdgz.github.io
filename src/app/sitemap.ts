@@ -8,7 +8,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const locales = ['en', 'es']
 
   return locales.map((locale) => ({
-    url: `${baseUrl}/${locale}`,
+    url: `${baseUrl}/${locale}/`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 1,
