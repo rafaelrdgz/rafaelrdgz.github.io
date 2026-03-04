@@ -1,31 +1,36 @@
 {
   "order": 1,
-  "company": "Acme Corp",
-  "position": { "en": "Fullstack Developer", "es": "Desarrollador Fullstack" },
-  "startDate": "2024-03-01",
+  "company": "AICA Pharmaceutical Laboratories",
+  "position": { "en": "Software Engineer", "es": "Ingeniero de Software" },
+  "startDate": "2025-02-01",
   "endDate": "Present",
-  "location": "Madrid, Spain",
+  "location": "Havana, Cuba",
   "keywords": [
     { "en": "Remote", "es": "Remoto" },
-    { "en": "Full-time", "es": "Tiempo completo" }
+    { "en": "Part-time", "es": "Medio tiempo" }
   ],
   "activities": [
     {
-      "en": "Developed and maintained scalable REST APIs serving 50K+ daily active users",
-      "es": "Desarrollé y mantuve APIs REST escalables con más de 50K usuarios activos diarios"
+      "en": "Refactored and completed a partially implemented Export Management System, normalizing the data model, optimizing queries and caching strategies, reducing report generation time by 40%",
+      "es": "Refactoricé y completé un Sistema de Gestión de Exportaciones parcialmente implementado, normalizando el modelo de datos, optimizando consultas y estrategias de caché, reduciendo el tiempo de generación de informes en un 40%"
     },
     {
-      "en": "Led frontend migration from legacy jQuery codebase to React with TypeScript",
-      "es": "Lideré la migración del frontend de una base de código jQuery a React con TypeScript"
+      "en": "Designed and implemented a Laboratory Information Management System to manage test requests, quality specifications and results, sample traceability, equipment and reagents, and automated reporting and approval workflows improving compliance and traceability",
+      "es": "Diseñé e implementé un Sistema de Gestión de Información de Laboratorio para gestionar solicitudes de pruebas, especificaciones y resultados de calidad, trazabilidad de muestras, equipos y reactivos, e informes automatizados y flujos de trabajo de aprobación mejorando el cumplimiento y la trazabilidad"
     },
     {
-      "en": "Implemented CI/CD pipelines reducing deployment time by 60%",
-      "es": "Implementé pipelines de CI/CD reduciendo el tiempo de despliegue en un 60%"
-    },
-    {
-      "en": "Collaborated with product and design teams to deliver features on tight deadlines",
-      "es": "Colaboré con los equipos de producto y diseño para entregar funcionalidades en plazos ajustados"
+      "en": "Implemented and administered CI/CD pipelines in GitLab, containerization with Docker, and deployment/monitoring with Portainer; defined branching strategies and automated testing, reducing deployment time from 1 hour to 12 minutes",
+      "es": "Implementé y administré pipelines de CI/CD en GitLab, contenerización con Docker, y despliegue/monitoreo con Portainer; definí estrategias de ramificación y pruebas automatizadas, reduciendo el tiempo de despliegue de 1 hora a 12 minutos"
     }
   ],
-  "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL", "Docker", "AWS"]
+  "technologies": [
+    "Nest.js",
+    "Next.js",
+    "Strapi",
+    "TypeScript",
+    "PostgreSQL",
+    "Docker",
+    "CI/CD",
+    "MinIO"
+  ]
 }

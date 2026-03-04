@@ -12,7 +12,7 @@
   "desktopImage": "",
   "mobileImage": "",
   "livePreview": "https://jesuseslarespuesta.vercel.app",
-  "type": { "en": "In Progress", "es": "En Progreso" },
+  "type": { "en": "Deployed", "es": "Desplegado" },
   "techStack": ["Astro", "Decap CMS"],
   "githubLinks": [
     {

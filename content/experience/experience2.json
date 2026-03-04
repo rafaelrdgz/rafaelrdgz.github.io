@@ -1,31 +1,27 @@
 {
   "order": 2,
-  "company": "TechStart Solutions",
-  "position": { "en": "Frontend Developer", "es": "Desarrollador Frontend" },
-  "startDate": "2022-06-01",
-  "endDate": "2024-02-01",
-  "location": "Barcelona, Spain",
+  "company": "Medialityc",
+  "position": { "en": "Full-Stack Developer", "es": "Desarrollador Full-Stack" },
+  "startDate": "2024-12-01",
+  "endDate": "2025-04-01",
+  "location": "Havana, Cuba",
   "keywords": [
-    { "en": "Hybrid", "es": "Híbrido" },
-    { "en": "Full-time", "es": "Tiempo completo" }
+    { "en": "Remote", "es": "Remoto" },
+    { "en": "Part-time", "es": "Medio tiempo" }
   ],
   "activities": [
     {
-      "en": "Built responsive web applications using Next.js and Tailwind CSS",
-      "es": "Construí aplicaciones web responsivas usando Next.js y Tailwind CSS"
+      "en": "Designed and led from scratch the architecture and development of a SaaS food platform with .NET API and Next.js backoffice; defined requirements, domain modeling and delivered a scalable MVP for commercial launch",
+      "es": "Diseñé y lideré desde cero la arquitectura y desarrollo de una plataforma SaaS de comida con API .NET y backoffice Next.js; definí requisitos, modelado de dominio y entregué un MVP escalable para lanzamiento comercial"
     },
     {
-      "en": "Optimized Core Web Vitals achieving 95+ Lighthouse scores across all pages",
-      "es": "Optimicé los Core Web Vitals logrando puntuaciones de Lighthouse superiores a 95 en todas las páginas"
+      "en": "Implemented AWS S3 integration for asset storage, Docker containerization and CI/CD pipelines with Github Workflows for reproducible deployments and efficient artifact management",
+      "es": "Implementé integración con AWS S3 para almacenamiento de assets, contenerización con Docker y pipelines de CI/CD con Github Workflows para despliegues reproducibles y gestión eficiente de artefactos"
     },
     {
-      "en": "Designed and implemented a component library used across 4 internal products",
-      "es": "Diseñé e implementé una librería de componentes utilizada en 4 productos internos"
-    },
-    {
-      "en": "Mentored junior developers through code reviews and pair programming sessions",
-      "es": "Mentoricé a desarrolladores junior mediante revisiones de código y sesiones de pair programming"
+      "en": "Built core features for customers, business administrators, couriers and system admins (provider management, customizable combos, logistics and order tracking), improving UX and day-to-day operations",
+      "es": "Construí funcionalidades principales para clientes, administradores de negocio, repartidores y administradores del sistema (gestión de proveedores, combos personalizables, logística y seguimiento de pedidos), mejorando la UX y las operaciones diarias"
     }
   ],
-  "technologies": ["Next.js", "Tailwind CSS", "Vue.js", "Figma", "Git"]
+  "technologies": [".NET", "Next.js", "TypeScript", "C#", "PostgreSQL", "AWS S3", "Docker", "CI/CD"]
 }
