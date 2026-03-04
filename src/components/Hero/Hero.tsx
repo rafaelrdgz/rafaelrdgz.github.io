@@ -28,7 +28,8 @@ const Hero = () => {
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-6 lg:justify-start">
             <a
-              href="#"
+              href="/Rafael_Rodriguez_Resume.pdf"
+              download="Rafael_Rodriguez_Resume.pdf"
               aria-label={t('resumeAriaLabel')}
               className="bg-accent flex min-w-32 cursor-pointer items-center justify-center gap-2 rounded-lg px-[14px] py-[10px] text-center text-sm font-medium text-[#00071E]"
             >
