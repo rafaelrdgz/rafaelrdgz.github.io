@@ -1,5 +1,6 @@
 import '@/app/globals.css'
 
+import { GoogleAnalytics } from '@next/third-parties/google'
 import type { Metadata } from 'next'
 
 import Footer from '@/components/Footer/Footer'
@@ -153,6 +154,10 @@ export default async function LocaleLayout({
           {children}
           <Footer />
         </NextIntlClientProvider>
+        <GoogleAnalytics
+          gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID!}
+          debugMode={process.env.NODE_ENV === 'development'}
+        />
       </body>
     </html>
   )
