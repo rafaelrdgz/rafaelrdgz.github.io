@@ -115,6 +115,7 @@ Set the following environment variables on your hosting platform:
 ```env
 NEXT_PUBLIC_SITE_URL=https://yourdomain.com
 CONTACT_FORM_ACTION_URL=https://formspree.io/f/your-form-id
+NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-XXXXXXXX
 ```
 
 The build outputs fully static HTML for `/en` and `/es` — compatible with any platform that supports Next.js (Vercel, Netlify, etc.).
