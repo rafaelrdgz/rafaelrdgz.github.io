@@ -62,7 +62,7 @@ const Hero = () => {
               <GithubIcon width={28} height={28} />
             </a>
             <a
-              href="https://www.linkedin.com/in/rafaelrdgz-dev/"
+              href="https://www.linkedin.com/in/rafaelrdgzdev/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label={t('linkedinAriaLabel')}

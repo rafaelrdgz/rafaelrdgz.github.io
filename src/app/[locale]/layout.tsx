@@ -135,7 +135,7 @@ export default async function LocaleLayout({
         name: 'Rafael Rodriguez',
         jobTitle: 'Fullstack Developer',
         url: baseUrl,
-        sameAs: ['https://github.com/rafaelrdgz', 'https://www.linkedin.com/in/rafaelrdgz-dev/'],
+        sameAs: ['https://github.com/rafaelrdgz', 'https://www.linkedin.com/in/rafaelrdgzdev/'],
       },
     ],
   }
