@@ -47,10 +47,10 @@ const Footer = async () => {
 
         <div className="flex flex-col gap-1 text-sm">
           <a
-            href="mailto:rafaelrdgz2003@gmail.com"
+            href="mailto:rafael.rodriguez.dev@outlook.com"
             className="text-tertiary-content hover:text-neutral transition-colors duration-300"
           >
-            rafaelrdgz2003@gmail.com
+            rafael.rodriguez.dev@outlook.com
           </a>
           <address className="text-tertiary-content not-italic">{t('location')}</address>
         </div>
