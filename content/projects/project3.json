@@ -8,9 +8,9 @@
     "en": "Public site with a blog, interactive event calendar and sections for ministries and community engagement — easy content publishing and accessibility-focused",
     "es": "Web pública con blog, calendario de actividades y secciones para ministerios, contacto y participación comunitaria, optimizada para publicación sencilla y accesibilidad"
   },
-  "cover": "",
-  "desktopImage": "",
-  "mobileImage": "",
+  "cover": "/images/projects/project3-desktop.png",
+  "desktopImage": "/images/projects/project3-desktop.png",
+  "mobileImage": "/images/projects/project3-mobile.png",
   "livePreview": "https://jesuseslarespuesta.vercel.app",
   "type": { "en": "Deployed", "es": "Desplegado" },
   "techStack": ["Astro", "Decap CMS"],
