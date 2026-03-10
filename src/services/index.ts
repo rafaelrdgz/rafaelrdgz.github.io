@@ -109,16 +109,16 @@ const getAllExperiences = async (locale: string): Promise<Experience[]> => {
 
         const experience: Experience = {
           order: raw.order,
-          company: raw.company,
-          position: resolve(raw.position, locale),
+          company: raw.company as { en: string; es: string },
+          position: raw.position as { en: string; es: string },
           startDate: formatDate(raw.startDate, locale),
           endDate:
             !raw.endDate || raw.endDate === 'Present' || raw.endDate === 'Presente'
               ? presentLabel(locale)
               : formatDate(raw.endDate, locale),
           location: raw.location,
-          keywords: raw.keywords.map((kw) => resolve(kw, locale)),
-          activities: raw.activities.map((act) => resolve(act, locale)),
+          keywords: raw.keywords as { en: string; es: string }[],
+          activities: raw.activities as { en: string; es: string }[],
           technologies: raw.technologies,
         }
 

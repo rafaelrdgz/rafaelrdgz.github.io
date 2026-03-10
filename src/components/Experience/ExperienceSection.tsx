@@ -5,9 +5,10 @@ import ExperienceCard from './ExperienceCard'
 
 interface ExperienceSectionProps {
   experiences: Experience[]
+  locale: string
 }
 
-const ExperienceSection: React.FC<ExperienceSectionProps> = async ({ experiences }) => {
+const ExperienceSection: React.FC<ExperienceSectionProps> = async ({ experiences, locale }) => {
   const t = await getTranslations('experience')
 
   return (
@@ -23,7 +24,7 @@ const ExperienceSection: React.FC<ExperienceSectionProps> = async ({ experiences
             <div key={experience.order} className="relative md:pl-8">
               {/* Timeline dot — desktop only */}
               <div className="bg-accent absolute top-6 left-0 hidden size-2.5 -translate-x-1/2 rounded-full md:block" />
-              <ExperienceCard data={experience} />
+              <ExperienceCard data={experience} locale={locale} />
             </div>
           ))}
         </div>

@@ -1,6 +1,6 @@
 {
   "order": 1,
-  "company": "AICA Pharmaceutical Laboratories",
+  "company": { "en": "AICA Pharmaceutical Laboratories", "es": "Laboratorios Farmacéuticos AICA" },
   "position": { "en": "Software Engineer", "es": "Ingeniero de Software" },
   "startDate": "2025-02-01",
   "endDate": "Present",

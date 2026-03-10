@@ -27,7 +27,7 @@ export interface RawProject {
 
 export interface RawExperience {
   order: number
-  company: string
+  company: LocalizedString
   position: LocalizedString
   /** ISO 8601 date, e.g. "2024-03-01" */
   startDate: string
@@ -75,13 +75,13 @@ export interface Project {
 
 export interface Experience {
   order: number
-  company: string
-  position: string
+  company: { en: string; es: string }
+  position: { en: string; es: string }
   startDate: string
   endDate: string
   location: string
-  keywords: string[]
-  activities: string[]
+  keywords: { en: string; es: string }[]
+  activities: { en: string; es: string }[]
   technologies: string[]
 }
 

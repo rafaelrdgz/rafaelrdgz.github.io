@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Rafael Rodriguez - Desarrollador Fullstack",
-    "description": "Ingeniero en Ciencias de la Computacion y Desarrollador Fullstack especializado en construir aplicaciones web modernas y escalables. Experiencia en React, Next.js, Node.js y TypeScript — desde frontends limpios hasta APIs backend robustas.",
+    "description": "Ingeniero en Ciencias Informáticas y Desarrollador Fullstack especializado en construir aplicaciones web modernas y escalables. Experiencia en React, Next.js, Node.js y TypeScript — desde frontends limpios hasta APIs backend robustas.",
     "siteName": "Portafolio de Rafael Rodriguez",
     "ogAlt": "Rafael Rodriguez - Desarrollador Fullstack"
   },
@@ -22,14 +22,14 @@
       "software": "DESARROLLADOR DE SOFTWARE",
       "engineer": "INGENIERO DE SOFTWARE"
     },
-    "tagline": "Ingeniero en Ciencias de la Computacion creando aplicaciones web escalables y modernas",
+    "tagline": "Ingeniero en Ciencias Informáticas creando aplicaciones web escalables y modernas",
     "resume": "Curriculum",
     "resumeAriaLabel": "Descargar Curriculum",
     "githubAriaLabel": "Ver perfil de GitHub",
     "linkedinAriaLabel": "Ver perfil de LinkedIn",
     "aboutTitle": "Sobre mi",
     "aboutParagraph1": "Me especializo en convertir ideas en productos digitales que rinden y se pueden medir: interfaces claras, flujos de usuario optimizados y metricas que demuestran impacto real. Trabajo tanto en frontend como en backend para asegurar que la experiencia de usuario y los objetivos de negocio avancen en la misma direccion.",
-    "aboutParagraph2": "Cada entrega se enfoca en resultados tangibles — mayor conversion, menor friccion y menores costos de mantenimiento — respaldados por practicas modernas de desarrollo y observabilidad. Colaboro con equipos multidisciplinarios para priorizar lo que realmente agrega valor y entregar mejoras de forma iterativa."
+    "aboutParagraph2": "Disfruto construir productos que van más allá de funcionar: herramientas que simplifican procesos, apoyan a los equipos y escalan con el uso real. Mi enfoque combina ingeniería cuidadosa con mejora continua para mantener los productos fiables a medida que crecen."
   },
   "projects": {
     "heading": "Proyectos Destacados",
@@ -66,7 +66,7 @@
     "error": "Ups! Hubo un problema al enviar tu formulario"
   },
   "footer": {
-    "bio": "Ingeniero en Ciencias de la Computacion y Desarrollador Fullstack apasionado por construir aplicaciones web limpias y escalables, convirtiendo ideas en productos reales.",
+    "bio": "Ingeniero en Ciencias Informáticas y Desarrollador Fullstack apasionado por construir aplicaciones web limpias y escalables, convirtiendo ideas en productos reales.",
     "location": "La Habana, Cuba",
     "copyright": "© {year} Rafael Rodriguez. Todos los derechos reservados."
   },

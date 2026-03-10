@@ -1,6 +1,6 @@
 {
   "order": 2,
-  "company": "Medialityc",
+  "company": { "en": "Medialityc", "es": "Medialityc" },
   "position": { "en": "Full-Stack Developer", "es": "Desarrollador Full-Stack" },
   "startDate": "2024-12-01",
   "endDate": "2025-04-01",
